@@ -9,7 +9,7 @@ Contact information:
 * Telegram: Mix_Potap
 
 ********************************
-![my-photo](/rsschool-cv/img/002.jpg "мое фото")
+![my-photo](/rsschool-cv/img/002.png "мое фото")
 
 
 Briefly About Myself:
