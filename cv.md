@@ -9,8 +9,8 @@ Contact information:
 * Telegram: Mix_Potap
 
 ********************************
-![my-photo](/rsschool-cv/img/002.png "мое фото")
-
+![my-photo](/rsschool-cv/img/002.png "my-photo")
+<img src="/rsschool-cv/img/002.png" alt= "my-photo" style="height: 100px; width: 100px;"/>
 
 Briefly About Myself:
 
