@@ -39,3 +39,5 @@ Courses:
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
 **********************
+* Russian - Native
+*  English is somewhere between A1 Beginner and A2 Elementary (result  EF SET Quick Check)
