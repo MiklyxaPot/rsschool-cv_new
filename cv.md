@@ -9,6 +9,7 @@ Contact information:
 * Telegram: Mix_Potap
 
 ********************************
+![my-photo](/rsschool-cv/img/002.jpg)
 
 
 Briefly About Myself:
@@ -32,3 +33,9 @@ const accum = str => str
   .join('-');
 
 ```
+**********************
+Courses:
+* Udemy "WEB developer 2022" (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+**********************
