@@ -4,9 +4,9 @@
 -------------------------------
 Contact information:
 
-Phone: +90 505 766 1259
-E-mail: potapmg@gmail.com
-Telegram: Mix_Potap
+* Phone: +90 505 766 1259
+* E-mail: potapmg@gmail.com
+* Telegram: Mix_Potap
 
 ********************************
 
@@ -18,10 +18,10 @@ I love to hear and believe that the effort you put in always pays off.
 
 ***************************
 Skill and Proficiency:
-*HTML5, CSS3
-*JavaScript 
-*VS Code
-*Figma
+* HTML5, CSS3
+* JavaScript 
+* VS Code
+* Figma
 ***************************
 Code example:
 
