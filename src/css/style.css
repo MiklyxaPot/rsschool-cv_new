@@ -4,6 +4,8 @@ body{
    margin: 0; 
    padding: 0;
    font-family: 'Roboto', sans-serif;  
+   font-size: 18px;
+   color:#141514;
    background-color: rgba(230, 234, 218, 0.849);
    scroll-behavior: smooth; 
 }
@@ -74,14 +76,18 @@ body{
    display: flex;
    justify-content: space-between;
 }
+.profile__content{
+   margin-right: 50px;
+}
 .profile__img{
+   margin-left: 50px;
    width: 200px;
    height: 200px;
    border-radius: 100%;
  }
 .profile__title {
    font-size: 40px;
-   font-weight: 400;
+   font-weight: 700;
    text-transform: uppercase;
    letter-spacing: 5px;
    color: #829985;
@@ -95,4 +101,52 @@ body{
    text-transform: uppercase;
    letter-spacing: 5px;
    color: #829985;
+}
+
+/* *********************** */
+
+.section {
+   margin-top: 30px;
+}
+.title {
+   font-size: 30px;
+   font-weight: 400;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #4d544e;
+
+}
+.contacts__link {
+   text-decoration: none;
+   color:#395c3e
+}
+.contacts__link a{
+   text-decoration: none;
+   color:#141514
+}
+
+.contacts__link:hover{
+   text-decoration: underline;
+}
+
+.summary__text{
+   line-height: 150%;
+}
+
+.skils__item{
+   list-style: none;
+   margin-top: 10px;
+}
+.skils__list{
+   position: relative;
+}
+.skils__item::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 10px;
+   width: 10px;
+   border: 1px solid #829985;
+   border-radius: 25%;
 }
