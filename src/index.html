@@ -21,8 +21,8 @@
                   <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                   <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
-                  <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                   <li class="nav-item"><a href="#lengs" class="nav-link">lengs</a></li>
                </ul>
             </nav>
@@ -61,18 +61,62 @@
             </section>
             <section class="section" id="skills">
                <h2 class="title">Skill and Proficiency:</h2>
-               <ul class="skils__list">
+               <ul class="skils__list ">
                   <li class="skils__item">HTML5, CSS3</li>
                   <li class="skils__item">JavaScript</li>
                   <li class="skils__item">VS Code</li>
                   <li class="skils__item"> Figma</li>
-                  
+
                </ul>
+            </section>
+            <section class="section" id="code">
+               <h2 class="title">Code example:</h2>
+               <div class="code">
+                  const accum = str => str<br>
+                  .split('')<br>
+                  .map((item, i) => (item = item.toLowerCase().repeat(i + 1)) && item.charAt(0).toUpperCase() +
+                  item.slice(1))<br>
+                  .join('-');<br>
+               </div>
+            </section>
+            <section class="section" id="courses">
+               <h2 class="title">Code example:</h2>
+               <div class="courses">
+                  <ul class="courses__list">
+                     <li class="courses__item">Udemy "WEB developer 2022" (in progress)</li>
+                     <li class="courses__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+
+
+                  </ul>
+               </div>
+            </section>
+            <section class="section" id="lengs">
+               <h2 class="title">Code example:</h2>
+               <div class="lengs">
+                  <ul class="lengs__list">
+                     <li class="lengs__item">Russian - Native</li>
+                     <li class="lengs__item">English is somewhere between A1 Beginner and A2 Elementary (result EF SET
+                        Quick Check)</li>
+
+
+                  </ul>
+               </div>
             </section>
          </div>
       </main>
       <footer class="footer">
-         khjkhfjdhjd
+         <div class="container">
+            <div class="footer-contend">
+               <div class="footer__info">
+                  <div class="data">2023</div>
+                  <div class="contact">
+                     <a href="mailto:potapmg@gmail.com"> potapmg@gmail.com</a>
+                  </div>
+               </div>
+               <div class="footer-img"></div>
+            </div>
+
+         </div>
       </footer>
    </div>
    <script src="script.js"></script>
