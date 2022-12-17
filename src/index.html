@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap " rel="stylesheet" />
+   <title>CV</title>
+   <link rel="icon" href="assets/favicon.ico">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <nav class="nav">
+               <ul class="nav-list">
+                  <li class="nav-item"><a href="#profile" class="nav-link">profile </a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#lengs" class="nav-link">lengs</a></li>
+                  <li class="nav-item"><a href="#project" class="nav-link">My project</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <main class="main container ">
+         <section class="section-profile  profile" id="profile">
+            <img src="img/002.jpg" alt="my-photo" class="profile__img">
+            <div class="profile__content">
+               <h1 class="profile__title">Mikhail Potapov</h1>
+               <h2 class="profile__subtitle">Junior Frontend Developer</h2>
+            </div>
+         </section>
+         <div class="main-container">
+            <section class="section" id="contacts">
+               <h2 class="title">Contacts</h2>
+               <div class="contacts__link">E-mail:
+                  <a href="mailto:potapmg@gmail.com"> potapmg@gmail.com</a>
+               </div>
+               <div class="contacts__link">Phone:
+                  <a href="tel:+905057661259"> +90 505 766 1259</a>
+               </div>
+               <div class="contacts__link"> Telegram:
+                  <a href="https://t.me/Mix_Potap">Mix_Potap</a>
+               </div>
+            </section>
+            <section class="section" id="summary">
+               <h2 class="title">Briefly About Myself:</h2>
+               <div class="summary__text">I started to get interested in web programming at the beginning of the year,
+                  because I was looking for a job that would not give me independence from where I traveled. I was
+                  interested in the frontend because it is a good start to get into programming. Programming is a
+                  growing
+                  area that is interesting from the point of view of my personal development and is in demand in the
+                  market.
+                  I love to hear and believe that the effort you put in always pays off.</div>
+            </section>
+            <section class="section" id="skills">
+               <h2 class="title">Skill and Proficiency:</h2>
+               <ul class="skils__list ">
+                  <li class="skils__item">HTML5, CSS3</li>
+                  <li class="skils__item">JavaScript</li>
+                  <li class="skils__item">VS Code</li>
+                  <li class="skils__item"> Figma</li>
+
+               </ul>
+            </section>
+            <section class="section" id="code">
+               <h2 class="title">Code example:</h2>
+               <div class="code">
+                  const accum = str => str<br>
+                  .split('')<br>
+                  .map((item, i) => (item = item.toLowerCase().repeat(i + 1)) && item.charAt(0).toUpperCase() +
+                  item.slice(1))<br>
+                  .join('-');<br>
+               </div>
+            </section>
+            <section class="section" id="courses">
+               <h2 class="title">My courses</h2>
+               <div class="courses">
+                  <ul class="courses__list">
+                     <li class="courses__item">Udemy "WEB developer 2022" (in progress)</li>
+                     <li class="courses__item">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+
+
+                  </ul>
+               </div>
+            </section>
+            <section class="section" id="lengs">
+               <h2 class="title">Lengs</h2>
+               <div class="lengs">
+                  <ul class="lengs__list">
+                     <li class="lengs__item">Russian - Native</li>
+                     <li class="lengs__item">English is somewhere between A1 Beginner and A2 Elementary (result EF SET
+                        Quick Check)</li>
+
+
+                  </ul>
+               </div>
+            </section>
+            <section class="section" id="project">
+               <h2 class="title">My project</h2>
+               <div class="project">
+                  <ul class="project__list">
+                     <li class="project__item"> 
+                        <a href="https://miklyxapot.github.io/slaider_krasivo/" target="_blank"> Beuatuful slide</a></li>
+                     <li class="project__item">
+                        <a href="https://miklyxapot.github.io/rsschool-cv/" target="_blank">My portfolio</a></li>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-contend">
+               <div class="footer__info">
+                  <div class="data">2023</div>
+                  <div class="contact">
+                     <a href="https://github.com/MiklyxaPot" target="_blank"> MiklyxaPot</a>
+                  </div>
+               </div>
+               <div class="footer-img">
+                  <a href="https://rs.school/js/" target="_blank"> 
+                     <img src="../src/img/rs-school.svg" alt="rs-school">
+                  </a>
+               </div>
+            </div>
+
+         </div>
+      </footer>
+   </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
