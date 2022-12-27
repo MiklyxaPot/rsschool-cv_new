@@ -141,6 +141,11 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    padding-bottom: 94px;
 }
 
+.welcome__container img{
+   display: block; 
+   max-width: 100%;
+   height: auto;
+}
 .welcome__content {
    max-width: 536px;
 }
@@ -191,11 +196,12 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .about__content {
-   
-
+   flex: 1 1 auto;
+   /* max-width: 605px;
+   min-width: 300px; */
 }
 .about__title {
-    margin-top: 27px;
+   margin-top: 27px;
 }
 
 .title {
@@ -204,25 +210,34 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    font-size: 40px;
    line-height: 52px;
    color: #499A18;
-   
-  
 }
 
 .title span{
    color: #E06733;
 }
 .about__text {
-   max-width: 605px;
    font-weight: 400;
    font-size: 20px;
    line-height: 150%;
    color: #636060;
    margin-top: 40px;
- 
 }
 .about__image{
-justify-self: end;
-min-width: 467px;
+   flex: 0 0 33.333%;
+   /* width: auto;
+   max-width: 100%;
+   height: auto; */
+   position: relative;
+   /* padding: 0px 0px 90% 0px; */
+}
+.about__image img{
+
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover; 
 }
 
  /* menu burger
@@ -288,14 +303,17 @@ min-width: 467px;
 .servise__head {
    display: flex;
    align-items: center;
+   justify-content: space-between;
+   max-width: 1007px;
 }
 .servise__title {
-   margin-right: 142px;
+   max-width: 306px;
+   margin-right: 15px;
 }
 .servise__btns {
    display: flex;
    gap: 38px;
-   margin-right: 205px;
+   flex-wrap: wrap;
 }
 .servise__btn {
 
@@ -454,8 +472,15 @@ min-width: 467px;
 
 .contact {
    background: #EDF2EC;
-  
    padding-top: 60px;
+}
+
+.contact__title {
+   margin: 0 auto;
+   max-width: 215px;
+   font-weight: 700;
+   font-size: 40px;
+   color: #499A18;
 }
 .contact__container { 
    height: 550px;
@@ -463,18 +488,11 @@ min-width: 467px;
    justify-content: space-between;
 }
 .contact__image {
-
-  
    width: 400px;
    height: 100%;
    background: url('../img/contact_woman.png') bottom /contain no-repeat;
-  
 }
-.contact__title {
-   font-weight: 700;
-   font-size: 40px;
-   color: #499A18;
-}
+
 
 .contact__selest{
    display: block;
