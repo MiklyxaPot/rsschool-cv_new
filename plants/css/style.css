@@ -72,7 +72,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 .header__container {
    display: flex;
-    min-height: 134px;
+    min-height: 146px;
    justify-content: space-between;
    align-items: center;
 }
@@ -80,8 +80,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 }
 .logo { 
-     display: flex;
-  
+   display: flex;
+   align-items: flex-end;
+   margin-bottom: 16px;
 }
 .logo__icon {
    display: block;
@@ -112,13 +113,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .menu__item {
 }
 .menu__link {
+   font-family: 'Inika';
    font-weight: 400;
    font-size: 16px;
    line-height: 50px;
+   transition: all 0.3s ease 0s;
    color: #010201;
 }
 
 .menu__link:hover{
+   font-weight: 700;
    color: #E06733;
 }
 
@@ -147,10 +151,10 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    height: auto;
 }
 .welcome__content {
-   max-width: 536px;
+   max-width: 538px;
 }
 .descrip {
-   margin-top: 36px;
+   margin-top: 40px;
    font-weight: 700;
    font-size: 45px;
    line-height: 50px;
@@ -167,8 +171,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    color: #636060;
 }
 .welcome__btn {
-   margin-top: 48px;
-   width: 158px;
+   margin-top: 53px;
+   width: 154px;
    height: 44px;
    font-weight: 400;
    font-size: 16px;
@@ -176,6 +180,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    color: #000000;
    border: 2px solid #E06733;
    border-radius: 10px;
+   transition: all 0.3s ease 0s;
 }
 
 .welcome__btn:hover{
@@ -186,19 +191,18 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 /* ******************ABOUT************ */
 
 .about {
+   padding: 93px 0 94px 0;
 
 }
 .about__container {
    display: flex;
    justify-content: space-between;
-   margin-top: 93px;
    gap: 10px;
 }
 
 .about__content {
    flex: 1 1 auto;
-   /* max-width: 605px;
-   min-width: 300px; */
+
 }
 .about__title {
    margin-top: 27px;
@@ -210,12 +214,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    font-size: 40px;
    line-height: 52px;
    color: #499A18;
+   max-width: 463px;
 }
 
 .title span{
    color: #E06733;
 }
 .about__text {
+   max-width: 605px;
    font-weight: 400;
    font-size: 20px;
    line-height: 150%;
@@ -223,72 +229,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    margin-top: 40px;
 }
 .about__image{
-   flex: 0 0 33.333%;
-   /* width: auto;
-   max-width: 100%;
-   height: auto; */
+   flex: 0 0 40%;
    position: relative;
-   /* padding: 0px 0px 90% 0px; */
 }
 .about__image img{
 
    width: 100%;
-   height: 100%;
+   height: 121%;
    position: absolute;
-   top: 0;
-   left: 0;
-   object-fit: cover; 
+   top: -34px;
+   left: 6px;
+   /* object-fit: cover;  */
 }
 
- /* menu burger
-.icon-menu {
-	display: none;
-	@media (max-width: 768px) {
-		display: block;
-		position: relative;
-      flex: 0 0 rem(30);
-		width: rem(30);
-		height: rem(18);
-		cursor: pointer;
-		z-index: 5;
-		span,
-		&::before,
-		&::after {
-			content: "";
-			transition: all 0.3s ease 0s;
-			right: 0;
-			position: absolute;
-			width: 100%;
-			height: rem(2);
-			background-color: #000;
-		}
-		&::before {
-			top: 0;
-		}
-		&::after {
-			bottom: 0;
-		}
-		span {
-			top: calc(50% - rem(1));
-		}
-		.menu-open & {
-			span {
-				width: 0;
-			}
-			&::before,
-			&::after {
-			}
-			&::before {
-				top: calc(50% - rem(1));
-				transform: rotate(-45deg);
-			}
-			&::after {
-				bottom: calc(50% - rem(1));
-				transform: rotate(45deg);
-			}
-		}
-	}
-} */
+
 
 
 /* ********SERVISE************* */
@@ -328,6 +282,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    font-size: 20px;
    line-height: 26px;
    color: #E06733;
+   transition: all 0.3s ease 0s;
 }
 
 .btn:hover{
@@ -336,7 +291,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    color: #FFFFFF;
 }
 .servise__card {
-   margin-top: 97px;
+   margin-top: 80px;
    display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -379,7 +334,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    line-height: 125%;
    color: #717171;
    text-align: center;
-   margin-top: 10px;
+   margin-top: 12px;
    margin-bottom: 36px;
 }
 
@@ -427,19 +382,26 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 .selest-prices__btn::after{
    content: '';
-   width: 16px;
-   height: 100%;
-   border-radius:100%;
-   top: 0;
-   left: 20;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   border-radius: 100%;
-   background-color: #D9D9D9;
    background: url('../img/icon/arrow.svg') 0 0 no-repeat;
+   position: absolute;
+   top: 36%;
+   right: 16%;
+   width: 6%;
+   height: 30%;
+   border-radius: 100%;
+   background: #D9D9D9;
+   z-index: 4;
 }
-
+.selest-prices__btn::before{
+   content: '';
+   background: url('../img/icon/arrow.svg') 0 0 no-repeat;
+   position: absolute;
+   top: 42%;
+   right: 6%;
+   width: 15%;
+   height: 18%;
+   z-index: 5;
+}
 
 
 .prices__right {
@@ -451,7 +413,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .prices__right img{
    max-width: 152px;
-   min-height: 174px;
+   min-height: 179px;
    margin-top: 38px;
 }
 .prices__discr {
@@ -477,13 +439,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .contact__title {
    margin: 0 auto;
+   font-family: 'Inika';
    max-width: 215px;
    font-weight: 700;
    font-size: 40px;
    color: #499A18;
 }
 .contact__container { 
-   height: 550px;
+   height: 452px;
    display: flex;
    justify-content: space-between;
 }
@@ -495,6 +458,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 
 .contact__selest{
+   position: relative;
    display: block;
    height: 50px;
    width: 450px;
@@ -505,9 +469,36 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    background: #D6E7D2;
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
    border-radius: 0px;
-   padding: 5px 35px 5px 20px;
-   margin-top: 148px;
+   padding: 5px 35px 5px 14px;
+   margin-top: 41px;
+   margin-right: 12px;
+   text-align: left;
 }
+
+.contact__selest::after{
+   content: '';
+   background: url('../img/icon/arrow.svg') 0 0 no-repeat;
+   position: absolute;
+   top: 34%;
+   right: 7%;
+   /* width: 4%;
+   height: 36%; */
+   width: 16px;
+   height: 16px;
+   border-radius: 100%;
+   background: #D9D9D9;
+}
+.contact__selest::before{
+   content: '';
+   background: url('../img/icon/arrow.svg') 0 0 no-repeat;
+   position: absolute;
+   top: 43%;
+   right: -5.3%;
+   width: 15%;
+   height: 18%;
+   z-index: 5;
+}
+
 
 /* ***********footer************ */
 
