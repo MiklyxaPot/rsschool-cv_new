@@ -146,11 +146,22 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    padding-bottom: 94px;
 }
 
-.welcome__container img{
-   display: block; 
-   max-width: 100%;
-   height: auto;
+.welcome__img{
+   position: relative;
+   flex: 0 0 50%;
+ 
+   
 }
+
+.welcome__img img{
+   width: 97%;
+   height: 104%;
+   position: absolute;
+   top: 10px;
+   left: -63px;
+  object-fit: contain; 
+}
+
 .welcome__content {
    max-width: 538px;
 }
@@ -297,7 +308,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    margin-top: 80px;
    display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 10px;
 }
 
 
@@ -400,8 +412,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    content: '';
    background: url('../img/icon/arrow.svg') 0 0 no-repeat;
    position: absolute;
-   top: 42%;
-   right: 6%;
+   top: 42.6%;
+   right: 5.8%;
    width: 15%;
    height: 18%;
    z-index: 5;
@@ -502,8 +514,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
    content: '';
    background: url('../img/icon/arrow.svg') 0 0 no-repeat;
    position: absolute;
-   top: 42%;
-   right: -5.3%;
+   top: 41%;
+   right: -5.2%;
    width: 15%;
    height: 18%;
    z-index: 5;
@@ -550,7 +562,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .footer__title a:hover{
    color: #E06733;
 }
+.footer__soial {
+}
+.soial-footer {
+}
+.soial-foote__list {
+   display: flex;
+   gap: 20px;
+   
+}
+.soial-foote__item {
+display: flex;
 
-.footer__soial a:not(:last-child) {
-   margin-right: 22px;
 }
